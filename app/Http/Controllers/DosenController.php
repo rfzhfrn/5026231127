@@ -11,8 +11,8 @@ class DosenController extends Controller
     return "<h1>Halo ini adalah method index, dalam controller DosenController. - www.malasngoding.com</h1>";
 }
     public function biodata(){
-    $nama = "Diki Alfarabi Hadi";
-    $umur = 100;
+    $nama = "Diki Alfarabi Hidayat";
+    $umur = 20;
     $matkul = ["Algoritma & Pemrograman","Kalkulus","Pemrograman Web"];
     return view('biodata',['nama' => $nama, 'umur' => $umur, 'matkul' => $matkul]);
 }

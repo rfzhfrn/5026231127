@@ -34,6 +34,9 @@
         <li class="nav-item">
         <a class="nav-link" href="#">EAS</a>
         </li>
+        <li class="nav-item">
+        <a class="nav-link" href="/keranjang">Latihan EAS</a>
+        </li>
     </ul>
   </div>
 </nav>

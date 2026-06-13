@@ -6,6 +6,7 @@ use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\KeranjangBelanjaController;
 use App\Http\Controllers\SiswaController;
+use App\Http\Controllers\SepedaController;
 use App\Http\Controllers\NilaiKuliahController;
 
 Route::get('/', function () {
@@ -47,3 +48,9 @@ Route::delete('/siswa/{nrp}', [SiswaController::class, 'destroy'])->name('siswa.
 Route::get('/nilaikuliah', [NilaiKuliahController::class, 'index']);
 Route::get('/nilaikuliah/tambah', [NilaiKuliahController::class, 'create']);
 Route::post('/nilaikuliah/simpan', [NilaiKuliahController::class, 'store']);
+Route::get('/sepeda', [SepedaController::class, 'index']);
+Route::get('/sepeda/tambah', [SepedaController::class, 'create']);
+Route::post('/sepeda/simpan', [SepedaController::class, 'store']);
+Route::get('/sepeda/edit/{id}', [SepedaController::class, 'edit']);
+Route::post('/sepeda/update/{id}', [SepedaController::class, 'update']);
+Route::get('/sepeda/hapus/{id}', [SepedaController::class, 'destroy']);

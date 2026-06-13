@@ -29,7 +29,7 @@
         <a class="nav-link" href="#">PR 2</a>
       </li>
         <li class="nav-item">
-        <a class="nav-link" href="#">PR 3</a>
+        <a class="nav-link" href="/sepeda">Pra EAS</a>
         </li>
         <li class="nav-item">
         <a class="nav-link" href="#">EAS</a>
